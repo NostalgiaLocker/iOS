@@ -9,21 +9,34 @@
 /* Begin PBXBuildFile section */
 		0E1B53DC2BAF56FA00EF9697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B53DB2BAF56FA00EF9697 /* AppDelegate.swift */; };
 		0E1B53DE2BAF56FA00EF9697 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B53DD2BAF56FA00EF9697 /* SceneDelegate.swift */; };
-		0E1B53E02BAF56FA00EF9697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B53DF2BAF56FA00EF9697 /* ViewController.swift */; };
-		0E1B53E32BAF56FA00EF9697 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0E1B53E22BAF56FA00EF9697 /* Base */; };
-		0E1B53E52BAF56FC00EF9697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1B53E42BAF56FC00EF9697 /* Assets.xcassets */; };
+		0E1B53E52BAF56FC00EF9697 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1B53E42BAF56FC00EF9697 /* Images.xcassets */; };
 		0E1B53E82BAF56FC00EF9697 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0E1B53E72BAF56FC00EF9697 /* Base */; };
+		0EA7EAC82BAFEF5C003ED20A /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA7EAC72BAFEF5C003ED20A /* Splash.storyboard */; };
+		0EA7EACA2BAFF145003ED20A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7EAC92BAFF145003ED20A /* SplashViewController.swift */; };
+		0EA7EACD2BAFF20D003ED20A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 0EA7EACC2BAFF20D003ED20A /* Lottie */; };
+		0EA7EAD02BAFFCC8003ED20A /* LottieAnimation.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA7EACF2BAFFCC8003ED20A /* LottieAnimation.xcassets */; };
+		0EA7EAD22BAFFCD0003ED20A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA7EAD12BAFFCD0003ED20A /* Colors.xcassets */; };
+		0EA7EAD52BAFFEE1003ED20A /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7EAD42BAFFEE1003ED20A /* OnboardingViewController.swift */; };
+		0EA7EAD72BAFFEEC003ED20A /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7EAD62BAFFEEC003ED20A /* OnboardingContainerViewController.swift */; };
+		0EA7EADA2BAFFFE2003ED20A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA7EAD92BAFFFE2003ED20A /* Home.storyboard */; };
+		0EA7EADC2BAFFFEC003ED20A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7EADB2BAFFFEC003ED20A /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E1B53D82BAF56FA00EF9697 /* Nostalgia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nostalgia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E1B53DB2BAF56FA00EF9697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E1B53DD2BAF56FA00EF9697 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0E1B53DF2BAF56FA00EF9697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0E1B53E22BAF56FA00EF9697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0E1B53E42BAF56FC00EF9697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E1B53E42BAF56FC00EF9697 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0E1B53E72BAF56FC00EF9697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E1B53E92BAF56FC00EF9697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EA7EAC72BAFEF5C003ED20A /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		0EA7EAC92BAFF145003ED20A /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		0EA7EACF2BAFFCC8003ED20A /* LottieAnimation.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LottieAnimation.xcassets; sourceTree = "<group>"; };
+		0EA7EAD12BAFFCD0003ED20A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		0EA7EAD42BAFFEE1003ED20A /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		0EA7EAD62BAFFEEC003ED20A /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
+		0EA7EAD92BAFFFE2003ED20A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		0EA7EADB2BAFFFEC003ED20A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EA7EACD2BAFF20D003ED20A /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +70,69 @@
 		0E1B53DA2BAF56FA00EF9697 /* Nostalgia */ = {
 			isa = PBXGroup;
 			children = (
-				0E1B53DB2BAF56FA00EF9697 /* AppDelegate.swift */,
-				0E1B53DD2BAF56FA00EF9697 /* SceneDelegate.swift */,
-				0E1B53DF2BAF56FA00EF9697 /* ViewController.swift */,
-				0E1B53E12BAF56FA00EF9697 /* Main.storyboard */,
-				0E1B53E42BAF56FC00EF9697 /* Assets.xcassets */,
+				0EA7EAC42BAFEA7B003ED20A /* Delegate */,
+				0EA7EAC52BAFEA87003ED20A /* Components */,
+				0EA7EACE2BAFFC91003ED20A /* DesignResource */,
 				0E1B53E62BAF56FC00EF9697 /* LaunchScreen.storyboard */,
 				0E1B53E92BAF56FC00EF9697 /* Info.plist */,
 			);
 			path = Nostalgia;
+			sourceTree = "<group>";
+		};
+		0EA7EAC42BAFEA7B003ED20A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0E1B53DB2BAF56FA00EF9697 /* AppDelegate.swift */,
+				0E1B53DD2BAF56FA00EF9697 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		0EA7EAC52BAFEA87003ED20A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0EA7EAC62BAFEEE6003ED20A /* Splash */,
+				0EA7EAD32BAFFEC7003ED20A /* Onboarding */,
+				0EA7EAD82BAFFFD1003ED20A /* Home */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0EA7EAC62BAFEEE6003ED20A /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				0EA7EAC72BAFEF5C003ED20A /* Splash.storyboard */,
+				0EA7EAC92BAFF145003ED20A /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		0EA7EACE2BAFFC91003ED20A /* DesignResource */ = {
+			isa = PBXGroup;
+			children = (
+				0E1B53E42BAF56FC00EF9697 /* Images.xcassets */,
+				0EA7EAD12BAFFCD0003ED20A /* Colors.xcassets */,
+				0EA7EACF2BAFFCC8003ED20A /* LottieAnimation.xcassets */,
+			);
+			path = DesignResource;
+			sourceTree = "<group>";
+		};
+		0EA7EAD32BAFFEC7003ED20A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0EA7EAD42BAFFEE1003ED20A /* OnboardingViewController.swift */,
+				0EA7EAD62BAFFEEC003ED20A /* OnboardingContainerViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0EA7EAD82BAFFFD1003ED20A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0EA7EAD92BAFFFE2003ED20A /* Home.storyboard */,
+				0EA7EADB2BAFFFEC003ED20A /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +151,9 @@
 			dependencies = (
 			);
 			name = Nostalgia;
+			packageProductDependencies = (
+				0EA7EACC2BAFF20D003ED20A /* Lottie */,
+			);
 			productName = Nostalgia;
 			productReference = 0E1B53D82BAF56FA00EF9697 /* Nostalgia.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +182,9 @@
 				Base,
 			);
 			mainGroup = 0E1B53CF2BAF56FA00EF9697;
+			packageReferences = (
+				0EA7EACB2BAFF20D003ED20A /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 0E1B53D92BAF56FA00EF9697 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +199,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E1B53E52BAF56FC00EF9697 /* Assets.xcassets in Resources */,
+				0EA7EAD22BAFFCD0003ED20A /* Colors.xcassets in Resources */,
+				0E1B53E52BAF56FC00EF9697 /* Images.xcassets in Resources */,
+				0EA7EAD02BAFFCC8003ED20A /* LottieAnimation.xcassets in Resources */,
+				0EA7EADA2BAFFFE2003ED20A /* Home.storyboard in Resources */,
 				0E1B53E82BAF56FC00EF9697 /* Base in Resources */,
-				0E1B53E32BAF56FA00EF9697 /* Base in Resources */,
+				0EA7EAC82BAFEF5C003ED20A /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +215,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E1B53E02BAF56FA00EF9697 /* ViewController.swift in Sources */,
+				0EA7EACA2BAFF145003ED20A /* SplashViewController.swift in Sources */,
 				0E1B53DC2BAF56FA00EF9697 /* AppDelegate.swift in Sources */,
 				0E1B53DE2BAF56FA00EF9697 /* SceneDelegate.swift in Sources */,
+				0EA7EAD72BAFFEEC003ED20A /* OnboardingContainerViewController.swift in Sources */,
+				0EA7EAD52BAFFEE1003ED20A /* OnboardingViewController.swift in Sources */,
+				0EA7EADC2BAFFFEC003ED20A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0E1B53E12BAF56FA00EF9697 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0E1B53E22BAF56FA00EF9697 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0E1B53E62BAF56FC00EF9697 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +369,7 @@
 				INFOPLIST_FILE = Nostalgia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,7 +397,7 @@
 				INFOPLIST_FILE = Nostalgia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Splash;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +435,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0EA7EACB2BAFF20D003ED20A /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0EA7EACC2BAFF20D003ED20A /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0EA7EACB2BAFF20D003ED20A /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0E1B53D02BAF56FA00EF9697 /* Project object */;
 }
