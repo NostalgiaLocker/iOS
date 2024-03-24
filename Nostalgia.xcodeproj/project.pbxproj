@@ -30,6 +30,7 @@
 		0E1B53E42BAF56FC00EF9697 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0E1B53E72BAF56FC00EF9697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E1B53E92BAF56FC00EF9697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E780FEC2BB0AC49001C8ABD /* OauthConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = OauthConfig.xcconfig; sourceTree = "<group>"; };
 		0EA7EAC72BAFEF5C003ED20A /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		0EA7EAC92BAFF145003ED20A /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		0EA7EACF2BAFFCC8003ED20A /* LottieAnimation.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LottieAnimation.xcassets; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				0EECFE3D2BB08D26007B220C /* LoginViewController.swift */,
+				0E780FEC2BB0AC49001C8ABD /* OauthConfig.xcconfig */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -371,6 +373,7 @@
 		};
 		0E1B53ED2BAF56FC00EF9697 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E780FEC2BB0AC49001C8ABD /* OauthConfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,6 +402,7 @@
 		};
 		0E1B53EE2BAF56FC00EF9697 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E780FEC2BB0AC49001C8ABD /* OauthConfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
