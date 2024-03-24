@@ -25,7 +25,7 @@ class SplashViewController: UIViewController {
                 let homeStoryBoard = UIStoryboard(name: "Home", bundle: nil)
                 loadViewController = homeStoryBoard.instantiateInitialViewController() as! HomeViewController
             }else {
-                loadViewController = OnboardingViewController(nibName: nil, bundle: nil)
+                loadViewController = OnboardingContainerViewController(nibName: nil, bundle: nil)
             }
             
             if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
