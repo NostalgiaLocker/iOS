@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import KakaoSDKCommon
+import KakaoSDKAuth
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,7 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let kakaoNativeAppKey = Bundle.main.infoDictionary?["KAKAO_API_KEY"] ?? ""
+        KakaoSDK.initSDK(appKey: kakaoNativeAppKey as! String)
+        
         return true
+    }
+    
+    // URL이 열렸을 때, 카카오 로그인 스킴과 동일한지 검사
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        if (AuthApi.isKakaoTalkLoginUrl(url)) {
+            return AuthController.handleOpenUrl(url: url)
+        }
+
+        return false
     }
 
     // MARK: UISceneSession Lifecycle
