@@ -6,8 +6,11 @@
 //
 
 import UIKit
+import Combine
 
 class LoginViewController: UIViewController {
+    var subscriptions = Set<AnyCancellable>()
+    
     lazy var stackView: UIStackView = {
         let stackView = UIStackView()
         stackView.spacing = 8
@@ -65,6 +68,7 @@ class LoginViewController: UIViewController {
         
         setup()
         setupSheetPresentation()
+        setBindings()
     }
 }
 
@@ -76,6 +80,7 @@ extension LoginViewController {
     
     @objc func didLogoutButtonClicked() {
         print("didLogoutButtonClicked called()")
+        kakaoAuthViewModel.handleKakaoLogout()
     }
     
     private func setup() {
@@ -97,5 +102,20 @@ extension LoginViewController {
             sheetPresentationController.prefersGrabberVisible = true
             sheetPresentationController.preferredCornerRadius = 25
         }
+    }
+}
+
+// MARK: 뷰모델 바인딩
+extension LoginViewController {
+    fileprivate func setBindings() {
+//        self.kakaoAuthViewModel.$isLoggedInt.sink { [weak self] isLogged in // Published
+//            guard let self = self else { return } // 순환참조 예방
+//            self.titleLabel.text = isLogged ? "로그인 상태" : "로그아웃 상태"
+//        }.store(in: &subscriptions)
+        
+        self.kakaoAuthViewModel.loginStatusInfo
+            .receive(on: DispatchQueue.main)
+            .assign(to: \.text, on: self.kakaoLoginStatusLabel)
+            .store(in: &subscriptions)
     }
 }
